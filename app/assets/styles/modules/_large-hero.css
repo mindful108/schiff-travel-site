@@ -1,0 +1,43 @@
+.large-hero {
+  position: relative;
+  font-family: 'Helvetica Neue', Roboto, sans-serif;
+  overflow: hidden;
+  text-align: center;
+  
+  & img {
+  min-width: 100%;
+  transform: translateX(0);
+  }
+  
+  &__text-content {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+  &__title {
+    font-weight: 300;
+    font-size: 75px;
+    font-size: 4.8rem;
+    color: $mainBlue;
+    margin: 0;
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 75px;
+    font-size: 2.9rem;
+    color: $mainBlue;
+    margin: 0 0 1rem;
+  }
+  &__tagline {
+    font-weight: 300;
+    font-size: 1.875rem;
+    color: #fff;
+    margin: 0 auto 2rem;
+    width: 27rem;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+  }
+}
+

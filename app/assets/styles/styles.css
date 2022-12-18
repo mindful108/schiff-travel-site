@@ -1,14 +1,6 @@
-body {
-  color: rgb(242, 53, 6);
-  padding: 50px;
-}
-
-$mainBlue: rgb(255, 0, 212);
-
-.large-hero {
-  h2 {
-    color: $mainBlue;
-    text-transform: uppercase;
-  }
-}
+@import 'normalize.css';
+@import 'base/_global';
+@import 'base/_variables';
+@import 'modules/_large-hero';
+@import 'modules/_btn';
 
