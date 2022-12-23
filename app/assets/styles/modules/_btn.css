@@ -1,15 +1,19 @@
 .btn {
-  background-color: $mainBlue;
+  background-color: $colorPrimary;
   color: #fff;
   text-decoration: none;
-  padding: .75rem 1.5rem;
+  text-transform: uppercase;
+  padding: .8rem 1.3rem;
+  border-radius: 6px;
   display: inline-block;
   &--orange {
-    background-color: $mainOrange;
+    background-color: $colorSecondary;
   }
   &--large {
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1.2rem 2rem;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.2);
   }
 }
