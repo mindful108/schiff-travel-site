@@ -15,13 +15,10 @@ module.exports = {
     path: path.resolve(__dirname, 'app')
   },
   devServer: {
-    // before: function(app, server) {
-    //   server._watch('./app/**/*.html')
-    // }, [watchFiles is an alternative to 'before']
-    watchFiles: ["./app/**/*.html"],
+    watchFiles: ['./app/**/*.html'],
     static: path.join(__dirname, 'app'),
     hot: 'only',
-    liveReload: false,
+    // liveReload: false,
     port: 3000,
     host: '0.0.0.0'
   },

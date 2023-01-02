@@ -4,11 +4,11 @@
   overflow: hidden;
   border-bottom: 8px solid $colorPrimary;
 
-    & img {
-      min-width: 100vw;
-      display: block;
-    }
-    
+  & img {
+    min-width: 100vw;
+    display: block;
+  }
+
   &__text-content {
     position: absolute;
     text-align: center;
@@ -19,9 +19,9 @@
     z-index: 99;
   }
   &__title {
-    font-weight: 300;
+    font-weight: 400;
     color: $colorPrimary;
-    font-size: 3rem;
+    font-size: 3.1rem;
     margin: 0;
 
     @mixin atSmall {
@@ -35,9 +35,9 @@
     }
   }
   &__subtitle {
-    font-weight: 300;
+    font-weight: 400;
     color: $colorPrimary;
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin: 0 0 1rem;
 
     @mixin atSmall {
@@ -50,16 +50,16 @@
       font-size: 3.5rem;
     }
   }
-  
+
   &__tagline {
     font-weight: 300;
     font-size: 1.3rem;
-    letter-spacing: .75px;
+    letter-spacing: 0.75px;
     color: #fff;
     margin: 0 auto 2rem;
     width: 22rem;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.25);
-    
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+
     @mixin atSmall {
       font-size: 1.4rem;
       width: 28rem;
@@ -73,4 +73,3 @@
     }
   }
 }
-
